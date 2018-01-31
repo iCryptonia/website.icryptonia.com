@@ -1365,7 +1365,8 @@ body {
 }
 .cid-qGaHMJTWQt .navbar {
   padding: .5rem 0;
-  background: #333333;
+  background: rgba(255, 255, 255, .96);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 65);
   transition: none;
   min-height: 77px;
 }
@@ -1833,8 +1834,14 @@ body {
 }
 .cid-qGaHMKHBQ0 {
   padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #2e2e2e;
+  padding-bottom: 0;
+  background-color: #e8ecec;
+  border-top: 1px solid #ccc;
+}
+
+.cid-qGaHMKHBQ0 h5,
+.cid-qGaHMKHBQ0 p {
+  color: #2e2e2e;
 }
 @media (max-width: 767px) {
   .cid-qGaHMKHBQ0 .content {
